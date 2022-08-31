@@ -1,6 +1,6 @@
 import express from 'express'
 
-import { getWordCloud } from '../service/word-cloud.js'
+import { getWordCloud } from '../services/word-cloud.js'
 
 export const wordCloudRouter = express.Router();
 
